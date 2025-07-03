@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Responsive Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+AU+SA:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Container that contains the whole page -->
+    <div id="container">
+      <!-- Table Content Area -->
+      <div id="tableContent" class="closed">
+        <div id="toggle1">
+          <div id="innerToggle"></div>
+        </div>
+        <div>
+          <h1>Orientation: Understanding Where You Are</h1>
+          <ul>
+            <li><a href="#">The Paradox of Agency</a></li>
+            <li><a href="#">The Landscape of Choice.</a></li>
+            <li><a href="#">Liberation from Regret</a></li>
+            <li><a href="#">Recognizing Patterns</a></li>
+            <li><a href="#">Values and Goals</a></li>
+          </ul>
+        </div>
+        <div>
+          <h1>Direction: Choosing a Path</h1>
+          <ul>
+            <li><a href="#">Mapping the Casual Factors</a></li>
+            <li><a href="#">Reframing Uncertainty as Agency</a></li>
+            <li><a href="#">Overcoming Decision Paralysis</a></li>
+            <li><a href="#">Perceiving the Path of Least Resistance</a></li>
+            <li><a href="#">Surrendering to the Outcome</a></li>
+          </ul>
+        </div>
+        <div>
+          <h1>Negative: Steering Trough the Inevitable</h1>
+          <ul>
+            <li><a href="#">Widening Your Field of View</a></li>
+            <li><a href="#">Dealing with Coincidence</a></li>
+            <li><a href="#">Forgiving Others</a></li>
+            <li><a href="#">What Anxiety Is Trying tp Tell You</a></li>
+            <li><a href="#">Maintainging a Sense of Self</a></li>
+          </ul>
+        </div>
+        <div>
+          <h1>Destination: Arriving Where You Must</h1>
+          <ul>
+            <li><a href="#">Reframing Achievement and Failure</a></li>
+            <li><a href="#">Surrendering to Success</a></li>
+            <li><a href="#">Giving Credit Where it's Due</a></li>
+            <li><a href="#">Unburden Yourself from Accountability</a></li>
+            <li><a href="#">Exercise: Writing your autobiography</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="mainContent">
+        <header>
+          <nav>
+            <ul id="outerList">
+              <li style="display: flex; gap: 10px">
+                <div id="toggle2">
+                  <div id="innerToggle"></div>
+                </div>
+                <div>Compass</div>
+              </li>
+              <li>
+                <ul id="innerList">
+                  <li><a href="#">Course</a></li>
+                  <li><a href="#">Interviews</a></li>
+                  <li><a href="#">Resources</a></li>
+                  <li>
+                    <a id="hide" href="#">Account</a>
+                    <ul id="hiddenList">
+                      <li><a href="#">Settings</a></li>
+                      <li><a href="#">Support</a></li>
+                      <li><a href="#">Sign out</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <!-- Hero Section -->
+          <section id="heroSection">
+            <div style="display: flex; gap: 7px">
+              <img style="width: 30px; height: 30px" src="images/arrow.png" alt="" />
+              <h1>Compass</h1>
+            </div>
+            <p>
+              A comprehensive journey that helps you navigate Uncertainty and
+              make choices aligned with your value and goals.
+            </p>
+            <div>
+              <ul style="display: flex; gap: 30px; flex-wrap: wrap">
+                <li>
+                  <div style="display: flex; gap: 10px">
+                    <img
+                      src="images/book.png"
+                      style="width: 20px; height: 20px"
+                      alt=""
+                    />
+                    <div>4 modules</div>
+                  </div>
+                </li>
+                <li>
+                  <div style="display: flex; gap: 10px">
+                    <img
+                      src="images/online-learning.jpg"
+                      style="width: 20px; height: 20px"
+                      alt=""
+                    />
+                    <div>20 lessons</div>
+                  </div>
+                </li>
+                <li>
+                  <div style="display: flex; gap: 10px">
+                    <img
+                      src="images/clock.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <div>3 hr 26 min</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <button>&#9658; Start the course</button>
+          </section>
+          <!-- Section 1 -->
+          <section id="part1" style="margin-bottom: 70px">
+            <div class="subPart1">
+              <h2 style="margin-top: 5px">Part 1</h2>
+            </div>
+            <div class="subPart2">
+              <h1 style="margin-top: 5px; font-weight: 500">
+                Orientation: Understanding Where You Are
+              </h1>
+              <p style="margin-top: 10px">
+                You need to know where you're starting from, before you can
+                pretend to decide where you're going.
+              </p>
+              <div
+                class="hoverClass"
+                style="margin-top: 20px; padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">The Landscape of Choice</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px; padding-left: 10px">
+                  A practical map for navigating the illusion that you actually
+                  have any agency at all.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">The Paradox of Agency</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  Explore whether you're living your life or just reacting to
+                  everyone else's.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">Liberation from Regret</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  If no alternative choice was ever possible, regret becomes
+                  logically unnecessary.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">Recognizing Patterns</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  Failures weren't freely chosen but were inevitable given your
+                  circumstances.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">Values and Goals</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  A practical map for navigating the illusion that you actually
+                  have any agency at all.
+                </p>
+              </div>
+            </div>
+          </section>
+          <!-- Section 2 -->
+          <section id="part1" style="margin-bottom: 70px">
+            <div class="subPart1">
+              <h2 style="margin-top: 5px">Part 2</h2>
+            </div>
+            <div class="subPart2">
+              <h1 style="margin-top: 5px; font-weight: 500">
+                Direction: Choosing a Path
+              </h1>
+              <p style="margin-top: 10px">
+                Experience the sensation of choice without the burden of true
+                responsibility.
+              </p>
+              <div
+                class="hoverClass"
+                style="margin-top: 20px; padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">Mapping the Causal Factors</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  The causes acting on you can give you insight into where they
+                  might take you.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">
+                      Reframing Uncertainty as Agency
+                    </h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  If you squint, not being able to predict the future looks sort
+                  of like free will.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">
+                      Overcoming Decision Paralysis
+                    </h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  You can't be paralysed by choices you don't actually have.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">
+                      Perceiving the Path of Least Resistance
+                    </h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  Recognizing which direction requires the least psychological
+                  struggle.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">Surrendering to the Outcome</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  Accepting that whatever path you choose has no bearing on
+                  where you'll go.
+                </p>
+              </div>
+            </div>
+          </section>
+          <!-- Section 3 -->
+          <section id="part1" style="margin-bottom: 70px">
+            <div class="subPart1">
+              <h2 style="margin-top: 5px">Part 3</h2>
+            </div>
+            <div class="subPart2">
+              <h1 style="margin-top: 5px; font-weight: 500">
+                Orientation: Understanding Where You Are
+              </h1>
+              <p style="margin-top: 10px">
+                You need to know where you're starting from, before you can
+                pretend to decide where you're going.
+              </p>
+              <div
+                class="hoverClass"
+                style="margin-top: 20px; padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">The Landscape of Choice</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px; padding-left: 10px">
+                  A practical map for navigating the illusion that you actually
+                  have any agency at all.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">The Paradox of Agency</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  Explore whether you're living your life or just reacting to
+                  everyone else's.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">Liberation from Regret</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  If no alternative choice was ever possible, regret becomes
+                  logically unnecessary.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">Recognizing Patterns</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  Failures weren't freely chosen but were inevitable given your
+                  circumstances.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">Values and Goals</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  A practical map for navigating the illusion that you actually
+                  have any agency at all.
+                </p>
+              </div>
+            </div>
+          </section>
+          <!-- Section 4-->
+          <section id="part1" style="margin-bottom: 70px">
+            <div class="subPart1">
+              <h2 style="margin-top: 5px">Part 4</h2>
+            </div>
+            <div class="subPart2">
+              <h1 style="margin-top: 5px; font-weight: 500">
+                Direction: Choosing a Path
+              </h1>
+              <p style="margin-top: 10px">
+                Experience the sensation of choice without the burden of true
+                responsibility.
+              </p>
+              <div
+                class="hoverClass"
+                style="margin-top: 20px; padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">Mapping the Causal Factors</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  The causes acting on you can give you insight into where they
+                  might take you.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">
+                      Reframing Uncertainty as Agency
+                    </h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  If you squint, not being able to predict the future looks sort
+                  of like free will.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">
+                      Overcoming Decision Paralysis
+                    </h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  You can't be paralysed by choices you don't actually have.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">
+                      Perceiving the Path of Least Resistance
+                    </h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  Recognizing which direction requires the least psychological
+                  struggle.
+                </p>
+              </div>
+              <div
+                class="hoverClass"
+                style="padding: 20px; border-radius: 10px"
+              >
+                <div style="display: flex; gap: 12px">
+                  <div style="display: flex; gap: 12px">
+                    <img
+                      src="images/play.png"
+                      style="height: 20px; width: 20px"
+                      alt=""
+                    />
+                    <h1 style="font-size: 1em">Surrendering to the Outcome</h1>
+                  </div>
+                  <div>14:26</div>
+                </div>
+                <p style="margin-top: 9px">
+                  Accepting that whatever path you choose has no bearing on
+                  where you'll go.
+                </p>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+  <script>
+    let toggle1 = 0;
+    document.getElementById("toggle1").addEventListener("click", function () {
+      if (toggle1 == 1) {
+        document.getElementById("tableContent").style.display = "none";
+        document.getElementById("toggle2").style.display = "block";
+        document.getElementById("mainContent").style.gridColumn = "1 / 6";
+        toggle1 = 0;
+      } else {
+        document.getElementById("tableContent").style.display = "block";
+        document.getElementById("toggle2").style.display = "none";
+        document.getElementById("mainContent").style.gridColumn = "2 / 6";
+        toggle1 = 1;
+      }
+    });
+    document.getElementById("toggle2").addEventListener("click", function () {
+      if (toggle1 == 0) {
+        document.getElementById("tableContent").style.display = "block";
+        document.getElementById("toggle2").style.display = "none";
+        document.getElementById("mainContent").style.gridColumn = "2 / 6";
+        toggle1 = 1;
+      }
+    });
+    
+  </script>
+  <script>
+    const tableContent = document.getElementById("tableContent");
+    const toggle_1 = document.getElementById("toggle1");
+    const toggle_2 = document.getElementById("toggle2");
+  
+    // Show sidebar drawer
+    toggle_2.addEventListener("click", () => {
+      tableContent.classList.remove("closed");
+      tableContent.classList.add("open");
+    });
+  
+    // Hide sidebar drawer
+      toggle_1.addEventListener("click", () => {
+      tableContent.classList.remove("open");
+      tableContent.classList.add("closed");
+    });
+  </script>
+  
+</html>
